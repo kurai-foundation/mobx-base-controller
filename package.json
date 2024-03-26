@@ -1,6 +1,6 @@
 {
   "name": "@kurai-io/mobx-base-controller",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "MobX controller for state and/or data in your stores",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

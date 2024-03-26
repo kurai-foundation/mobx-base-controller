@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          VERSION=$(npm version patch -m "Upgrade to %s due to changes")
+          VERSION=$(npm version patch --force -m "Upgrade to %s due to changes")
           echo "::set-output name=tag::$VERSION"
           echo "VERSION=$VERSION" >> $GITHUB_ENV
 

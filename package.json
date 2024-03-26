@@ -14,10 +14,12 @@
     "data",
     "js"
   ],
-  "author": "SafeBlock",
-  "license": "ISC",
+  "author": "Kurai Foundation",
+  "license": "MIT",
   "dependencies": {
-    "mobx": "^6.12.1",
+    "mobx": "^6.12.1"
+  },
+  "devDependencies": {
     "tsc": "^2.0.4",
     "typescript": "^5.4.2"
   },
@@ -26,14 +28,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/safeblock-dev/proto.git",
+    "url": "git+https://github.com/kurai-foundation/mobx-base-controller.git",
     "directory": "token_monit"
   },
   "publishConfig": {
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/safeblock-dev/proto/issues"
+    "url": "https://github.com/kurai-foundation/mobx-base-controller/issues"
   },
-  "homepage": "https://github.com/safeblock-dev/proto#readme"
+  "homepage": "https://github.com/kurai-foundation/mobx-base-controller#readme"
 }

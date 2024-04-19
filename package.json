@@ -28,8 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kurai-foundation/mobx-base-controller.git",
-    "directory": "token_monit"
+    "url": "git+https://github.com/kurai-foundation/mobx-base-controller.git"
   },
   "publishConfig": {
     "access": "public"
